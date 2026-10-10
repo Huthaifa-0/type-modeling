@@ -1,0 +1,4 @@
+A notable difference I found is how the reference solution takes advantage of a common helper for checking argument types and counts,
+rather than duplicating the same in the method and constructor invocations.
+It made me understand how grouping the common behavior can help to make the code more concise and maintainable.
+Another thing is how important it is to pay attention to the actual error message and not just the presence of an error itself in case of detecting an invalid type
